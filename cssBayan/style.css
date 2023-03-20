@@ -27,7 +27,8 @@ hr {
     width: 100%;
 }
 
-.container:hover .plus h2 {
+.container:hover .plus h2,
+input:checked+label .plus h2{
     transform: rotate(45deg);
 }
 
